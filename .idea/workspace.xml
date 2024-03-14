@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="add module">
+    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="conf 3 module">
+      <change afterPath="$PROJECT_DIR$/testJWTServer/src/main/java/com/example/testJWTServer/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOAuth2Res/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/java/com/example/testOAuth2Res/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/java/com/example/testOAuth2Res/controller/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/example/testSpring/controllers/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testSpring/src/main/resources/templates/cat-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testJWTServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testOAuth2Res/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOAuth2Res/src/main/java/com/example/testOAuth2Res/config/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -45,20 +53,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Администратор/Documents/Spring/demoOAuth2/testJWTServer"
+    "last_opened_file_path": "C:/Users/Администратор/Documents/Spring/demoOAuth2/testOAuth2Res"
   }
 }]]></component>
-  <component name="RunManager" selected="Compound.OAuth2">
-    <configuration name="Client" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.example.testSpring.ModuleOAuth2ClientApplication" />
-      <module name="testSpring" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Администратор\Documents\Spring\demoOAuth2\testOAuth2Res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Compound.3-module">
     <configuration name="JWT" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.testJWTServer.TestJwtServerApplication" />
       <module name="testJWTServer" />
@@ -73,8 +80,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="zClient" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.testSpring.ModuleOAuth2ClientApplication" />
+      <module name="testSpring" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3-module" type="CompoundRunConfigurationType">
+      <toRun name="JWT" type="Application" />
+      <toRun name="Resource" type="Application" />
+      <toRun name="zClient" type="Application" />
+      <method v="2" />
+    </configuration>
     <configuration name="OAuth2" type="CompoundRunConfigurationType">
-      <toRun name="Client" type="Application" />
+      <toRun name="zClient" type="Application" />
       <toRun name="JWT" type="Application" />
       <toRun name="Resource" type="Application" />
       <method v="2" />
@@ -82,8 +102,9 @@
     <list>
       <item itemvalue="Application.JWT" />
       <item itemvalue="Application.Resource" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.zClient" />
       <item itemvalue="Compound.OAuth2" />
+      <item itemvalue="Compound.3-module" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,11 +123,19 @@
       <option name="project" value="LOCAL" />
       <updated>1710350123057</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="conf 3 module">
+      <created>1710352515422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710352515422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module" />
+    <MESSAGE value="conf 3 module" />
+    <option name="LAST_COMMIT_MESSAGE" value="conf 3 module" />
   </component>
 </project>

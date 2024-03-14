@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.3</version>
+		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
@@ -22,30 +22,27 @@
 <!--			<artifactId>spring-security-config</artifactId>-->
 <!--			<version>5.4.0</version> &lt;!&ndash; актуальная версия библиотеки, измените на нужную вам &ndash;&gt;-->
 <!--		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>
+		</dependency>
+
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-oauth2-resource-server</artifactId>-->
+<!--			<artifactId>spring-boot-starter-security</artifactId>-->
 <!--		</dependency>-->
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-oauth2-client</artifactId>-->
+<!--			<artifactId>spring-boot-starter-thymeleaf</artifactId>-->
 <!--		</dependency>-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-thymeleaf</artifactId>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.thymeleaf.extras</groupId>
-			<artifactId>thymeleaf-extras-springsecurity6</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.thymeleaf.extras</groupId>-->
+<!--			<artifactId>thymeleaf-extras-springsecurity6</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
