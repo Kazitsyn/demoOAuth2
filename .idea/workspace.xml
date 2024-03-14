@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="conf 3 module">
-      <change afterPath="$PROJECT_DIR$/testJWTServer/src/main/java/com/example/testJWTServer/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testOAuth2Res/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/java/com/example/testOAuth2Res/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/java/com/example/testOAuth2Res/controller/ResourceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/java/com/example/testSpring/controllers/ClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testSpring/src/main/resources/templates/cat-page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testJWTServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOAuth2Res/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +43,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Администратор/Documents/Spring/demoOAuth2/testOAuth2Res"
+    "last_opened_file_path": "C:/Users/Администратор/Documents/Spring/demoOAuth2"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Администратор\Documents\Spring\demoOAuth2" />
       <recent name="C:\Users\Администратор\Documents\Spring\demoOAuth2\testOAuth2Res" />
     </key>
   </component>
@@ -130,12 +117,30 @@
       <option name="project" value="LOCAL" />
       <updated>1710352515422</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="complete">
+      <created>1710441627813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710441627813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add module" />
     <MESSAGE value="conf 3 module" />
-    <option name="LAST_COMMIT_MESSAGE" value="conf 3 module" />
+    <MESSAGE value="complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
